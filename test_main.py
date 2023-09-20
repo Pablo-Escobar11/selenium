@@ -1,15 +1,7 @@
-import pytest
-from telnetlib import EC
 from time import sleep
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from pages.main_page import MainPage
 from pages.basket_page import BasketPage
 from pages.base_page import BasePage
-from pages.login_page import LoginPage
-import time
 
 
 def test_guest_can_go_to_login_page(browser):
