@@ -27,3 +27,4 @@ class BasketPageLocators:
     BASKET_LINK = (By.XPATH, "//a[contains(text(), 'View basket')]")
     ELEMENTS_IN_BASKET = (By.CLASS_NAME, "basket-items")
     BASKET_TEXT = (By.XPATH, "//h1[contains(text(), 'Basket')]")
+
